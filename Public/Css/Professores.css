@@ -1,0 +1,21 @@
+/* Estilos página professores */
+
+.content_container{
+    padding: 20px;
+}
+
+.content_container h2.title{
+    font-size: 1.5em;
+}
+
+.content_container > div img {
+    width: 95%;
+    border-radius: 20px;
+    border: 5px double #3bd43d;
+}
+
+@media screen and (min-width: 992px){
+   .content_container article p {
+    margin: 0 auto 10px ;
+}
+ } 

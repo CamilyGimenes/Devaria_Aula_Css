@@ -21,3 +21,13 @@ h1.title{
 .text_justify{
     text-align: justify;
 }
+
+.text_center{
+    text-align: center;
+}
+
+@media screen and (min-width:992px){
+    .width_50pct_desktop {
+        width: 50% !important;
+    }
+}
